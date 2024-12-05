@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="extentReportListener.ReportListener" />
+	</listeners>
+
+  <test name="Test">
+   <parameter name ="typeoftestcases" value = "reg"/>
+    <classes>
+      <class name="testcase.RunErailUseCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
